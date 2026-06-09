@@ -1,0 +1,14 @@
+app = "boyard-mebel-bot"
+primary_region = "ams"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[machines]
+  auto_stop_machines = false
+  auto_start_machines = true
+
+[[vm]]
+  memory = "256mb"
+  cpu_kind = "shared"
+  cpus = 1
